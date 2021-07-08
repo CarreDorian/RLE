@@ -1,0 +1,2 @@
+# RLE
+A compression algorithme 
