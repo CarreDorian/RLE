@@ -8,4 +8,4 @@ To decode a file:
 php cli.php decode name_file_compress name_file_decompress
 
 To encode and decode file (done for testing): 
-php cli.php Duo name_file name_file_compress name_file_decompress
+php cli.php duo name_file name_file_compress name_file_decompress
