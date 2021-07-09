@@ -22,8 +22,11 @@ else {
             break;
         // compress file give in first argument and decompress it
         case "duo":
+            if (!isset($argv[4])) {
+                echo "parrameters forget\n";
+                break;
+            }
             if (encode_advanced_rle($argv[2], $argv[3])) {
-                if (!isset($argv[4])) echo "parrameters forget\n";
                 echo "ERROR : encode\n";
                 break;
             } else echo "OK - ";
